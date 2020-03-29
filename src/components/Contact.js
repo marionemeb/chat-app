@@ -31,7 +31,6 @@ class Contact extends React.Component {
 
 Contact.propTypes = {
   name: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
 };
 export default Contact;
